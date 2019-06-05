@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index page</title>
+	<link href="bootstrap/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    	#li:hover{color:white; background-color:red}
+    	::placeholder {color: red;}
+    	.h{color: black ;}    </style>
+</head>
+<body>
+	 <div class="container">
+<!-- here am defining the container beacuse i want responsive for width and hight-->
+       <nav class="navbar navbar-default" id="hh"  style="color:blue">
+       	<!-- i am define nav because i need to create navigation bar from bootstrap -->
+         <div>
+    	     <button class="navbar-toggle" data-target="#collf" data-toggle="collapse"><i class="fa fa-bars" style="font-size: 40px;"></i></button>
+             <a href="" class="navbar-brand"><strong style="color: red">Drink</strong></a>
+
+         </div>
+         <!--i created one div to responsive for mobile development as well, the shows only for mobiles-->
+
+    	             <!-- to collect links and forms-->
+        <div class="collapse navbar-collapse" id="collf"  style="color: black; background-color:#eaf2f8; font-weight: bold;" >
+        	<ul class="nav navbar-nav navbar-right" >
+                <li><a href="index.html"><span class="h">HOME</span></a></li>
+                <li><a href= ""><span class="h">LOGIN/SIGN UP</span></a></li>
+                <li><a href="index.html"><span class="h">Brand</span></a></li>
+                <li><a href="index.html"><span class="h">cart</span></a></li>
+                <li><a href="index.html"><span class="h">About us</span></a></li>
+                <li><a><input type="search" placeholder="Search your favroite brand" name="gvhgv" ></a></li>
+                <li><a><input type="submit" name="" class="btn-danger" ></a></li>
+        	</ul>
+    	</div>
+
+    	<!-- for navigation bar for pc or laptop how it looks was defined by above code-->
+    </nav>
+<!--- finlay i am done with navigation part-->
+<!-- in order to declare header and catagaries list-->
+<section>
+
+	<div class="row">
+	<div class="col-xs-3">
+	<strong style="color: red">Catagaries</strong>
+	<ul style="list-style-type: none ;font-weight:bold;">
+		<li id="li">strome</li>
+		<li id="li">kingfisher</li>
+		<li id="li">ultra</li>
+		<li id="li">ultra max</li>
+	</ul>
+ 
+</div>
+
+<div class="col-xs-5">
+<header>
+	<h3 style="color: red ;">Clerance</h3>
+	<h1 style="color: red; font-size: 50px">SALE</h1>
+	<small>UPTo 40 % OFF</small>
+	<p>Get to know more About your Memorable Service</p>
+	<button class="btn-danger">Shop Now</button>
+</header>
+</div>
+
+<div class="col-xs-4">
+  
+     <img class="img-responsive" src="image/image2.jpg" type="jpg" width="300px" height="300px">
+    
+</div>
+
+
+
+
+
+
+</div>
+</section><br>
+
+
+
+
+<!--one line to see all products-->
+<div hight="50px" width="600px" style=" text-align-last: right; box-shadow: 20px; border-width: 0.110px; border-style:solid; color: red; border-color: black">
+	See all products   <i class="fa fa-angle-double-right" style="font-size: 20px; color: black; width: 40px"></i>
+  
+</div><br>
+ 
+<!-- i am doing remaing part product display from database-->
+ <div class="row">
+ 
+	    <div class="col-xs-3" >    		
+		  <img src="image/image1.jpg" width="170px" height="170px" class="img-responsive">
+	    <p><strong>Redmi note4</strong><br>This is an one of the rarest product in indian ,now we are providing you cheap price</p>
+<hr style=" background-color:red">
+<p style="text-align: right"><button  class="btn-danger" >Add to cart</button><br></p>
+	</div>	    
+
+  
+	    <div class="col-xs-3" >    		
+		  <img src="image/image1.jpg" width="170px" height="170px" class="img-responsive">
+	    <p><strong>Redmi note4</strong><br>This is an one of the rarest product in indian ,now we are providing you cheap price</p>
+<hr style=" background-color:red">
+<p style="text-align: right"><button class="btn-danger">Add to cart</button><br></p>
+	</div> 	
+
+
+
+	    <div class="col-xs-3" >    		
+		  <img src="image/image1.jpg" width="170px" height="170px" class="img-responsive">
+	    <p><strong>Redmi note4</strong><br>This is an one of the rarest product in indian ,now we are providing you cheap price</p>
+<hr style=" background-color:red">
+<p style="text-align: right"><button class="btn-danger" >Add to cart</button><br></p>
+	</div>	
+
+
+
+
+
+	    <div class="col-xs-3" >    		
+		  <img src="image/image1.jpg" width="170px" height="170px" class="img-responsive">
+	    <p><strong>Redmi note4</strong><br>This is an one of the rarest product in indian ,now we are providing you cheap price</p>
+<hr style=" background-color:red">
+<p style="text-align: right"><button class="btn-danger" >Add to cart</button><br></p>
+	</div>
+
+  </div><!-- this div for row divivision--><br>
+
+
+
+
+
+
+
+	
+	<!--one line to see feuture products-->
+<div hight="50px" width="600px" style=" text-align-last: right; box-shadow: 20px; border-width: 0.110px; border-style:solid; color: red; border-color: black">
+	feuture products   <i class="fa fa-angle-double-right" style="font-size: 20px; color: black; width: 40px"></i>
+  
+</div><br>
+ 
+<!-- i am doing remaing part product display from database-->
+ <div class="row">
+ 
+	    <div class="col-md-3" >    		
+		  <img src="image/image1.jpg" width="170px" height="170px">
+	    <p><strong>Redmi note4</strong><br>This is an one of the rarest product in indian ,now we are providing you cheap price</p>
+<hr style=" background-color:red">
+<p style="text-align: right"><button class="btn-danger" >Add to cart</button><br></p>
+	</div>	    
+
+  
+	    <div class="col-md-3" >    		
+		  <img src="image/image1.jpg" width="170px" height="170px">
+	    <p><strong>Redmi note4</strong><br>This is an one of the rarest product in indian ,now we are providing you cheap price</p>
+<hr style=" background-color:red">
+<p style="text-align: right"><button class="btn-danger" >Add to cart</button><br></p>
+	</div> 	
+
+
+
+	    <div class="col-md-3" >    		
+		  <img src="image/image1.jpg" width="170px" height="170px">
+	    <p><strong>Redmi note4</strong><br>This is an one of the rarest product in indian ,now we are providing you cheap price</p>
+<hr style=" background-color:red">
+<p style="text-align: right"><button class="btn-danger" >Add to cart</button><br></p>
+	</div>	
+
+
+
+
+
+	    <div class="col-md-3" >    		
+		  <img src="image/image1.jpg" width="170px" height="170px">
+	    <p><strong>Redmi note4</strong><br>This is an one of the rarest product in indian ,now we are providing you cheap price</p>
+<hr style=" background-color:red">
+<p style="text-align: right"><button class="btn-danger" >Add to cart</button><br></p>
+	</div>
+
+  </div><!-- this div for row divivision of another feature product-->
+
+</div><!--container div-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to deal with navigation bar we must link some javascript and jquery file-->
+<!-- jquery should  be top because bootstrap core javascript should be defined-->
+        <script src="bootstrap/js/jquery.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
